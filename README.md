@@ -26,12 +26,3 @@ Welcome to the **Restaurant Website** repository! This project is a responsive, 
 - **FontAwesome** for icons.
 
 ---
-
-## Installation
-
-### 1. Clone the Repository
-
-Clone this repository to your local machine using:
-
-```bash
-git clone https://github.com/yourusername/restaurant-website.git
