@@ -1,0 +1,13 @@
+.href{
+    background-color: black;
+    
+}
+*{
+    margin: 0%;
+}
+nav{
+    background-color:darkgray;
+    border: 1.5px solid black;
+    margin: 0%;
+    padding-left: 10px;
+}
