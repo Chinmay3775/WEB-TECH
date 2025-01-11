@@ -1,13 +1,19 @@
-.href{
-    background-color: black;
-    
-}
-*{
-    margin: 0%;
-}
+
 nav{
-    background-color:darkgray;
-    border: 1.5px solid black;
+    font-size: larger;
+    padding-left:70%;
+
+}
+h1{
+    font-size: 100px;
+    padding-left: 30%;
+}
+body{
+    background-color: beige;
+    font-size: medium;
     margin: 0%;
-    padding-left: 10px;
+border-color: rgb(255, 0, 0);
+}
+footer{
+    background-color:darkgrey;
 }
