@@ -9,9 +9,9 @@ nav a {
 h1 {
     font-size: 100px;
     color:rgb(0, 0, 0);
-    background-color:rgba(169, 169, 169, 0.500) ;
     margin:0;
-    text-align:center ;
+    text-align:center;
+    text-decoration:double underline;
 }
 
 body {
@@ -21,6 +21,10 @@ body {
     background-attachment: scroll; */
     background: black  url('bg.jpg') no-repeat scroll;
     background-size: cover;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+   
 
 }
 
@@ -33,4 +37,8 @@ header{
     background-color:rgba(169, 169, 169, 0.500) ;
 height:27px
 
+}
+.container{
+    background-color:rgba(169, 169, 169, 0.500) ;
+    align-content: center;
 }
