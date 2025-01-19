@@ -1,10 +1,15 @@
 nav {
     font-size: larger;
     text-align:right;
+    background-attachment: fixed;
+
 }
 nav a {
     color: rgb(0, 0, 0);
-    text-decoration: none;
+    text-decoration:underline;
+    margin-right: 10px;
+    list-style:square;
+    background-attachment: fixed;   
 }
 h1 {
     font-size: 100px;
@@ -15,30 +20,30 @@ h1 {
 }
 
 body {
-    /* background-image: url('bg.jpg');
-    background-repeat: no-repeat;
-    font-size: 16.5px;
-    background-attachment: scroll; */
+    
     background: black  url('bg.jpg') no-repeat scroll;
     background-size: cover;
-    display: grid;
+    display:grid;
     height: 100vh;
-    grid-template-rows: auto 1fr auto;
-   
+    /* background-attachment: fixed; */
 
-}
-
-footer {
-    background-color: rgba(169, 169, 169, 0.500);
-    color: rgb(0, 0, 0);
-    text-align:center;
 }
 header{
-    background-color:rgba(169, 169, 169, 0.500) ;
-height:27px
-
+    padding-bottom: 50px;
 }
+footer {
+    color: rgb(0, 0, 0);
+    text-align:center;
+    padding-top: 100px;
+}
+
 .container{
     background-color:rgba(169, 169, 169, 0.500) ;
     align-content: center;
+    
+}
+.first{
+    background-color:rgba(169, 169, 169, 0.500);
+    font-size: 30px;
+    background-attachment:scroll;
 }
