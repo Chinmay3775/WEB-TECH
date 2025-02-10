@@ -6,7 +6,7 @@ nav {
 }
 nav a {
     color: rgb(0, 0, 0);
-    text-decoration:underline;
+    text-decoration:double underline;
     margin-right: 10px;
     list-style:square;
     background-attachment: fixed;   
